@@ -16,12 +16,6 @@ sudo apt install xserver-xorg-video-vmware -y
 ## Buat xorg.conf dengan PreferredMode (Fix Permanen)
 Cara ini mengubah preferred resolution langsung di level Xorg, sehingga LightDM tidak bisa mereset ke 800x600 lagi.  
 
-### Buat file konfigurasi Xorg:
-
-```bash
-sudo nano /etc/X11/xorg.conf.d/10-monitor.conf
-```
-
 ## Xorg
 ```bash
 sudo apt install xserver-xorg-video-vmware
