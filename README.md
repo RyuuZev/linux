@@ -70,7 +70,7 @@ lalu tambahin ini di bagian paling bawah
 Cut folder
 
 ```bash
-sudo chown pasya:pasya /home/eggs/mnt
+sudo chown -R user:user /home/eggs/mnt
 ```
 # Install Fresh Eggs
 Fresh Eggs ini tool buat membuat OS linux yang sedang dipakai sekarang untuk menjadi file ISO kembali, tujuannya biar hasil modifikasi OS bisa dibikin menjadi file ISO utuh agar bisa diinstall ulang kapan aja.  
